@@ -35,19 +35,19 @@
 "aI" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
 "aJ" = (/obj/machinery/atmospherics/portables_connector{dir = 4},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
 "aK" = (/obj/machinery/atmospherics/pipe/simple/hidden/blue{tag = "icon-intact (EAST)"; icon_state = "intact"; dir = 4},/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/EVA)
-"aL" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1379; id_tag = "solar_xeno_airlock"; pixel_x = 25; tag_airpump = "Listen_Airlock_Pump"; tag_chamber_sensor = "Listen_Airlock_Sensor"; tag_exterior_door = "Listen_Airlock_Outer"; tag_interior_door = "Listen_Airlock_Inner"},/obj/machinery/airlock_sensor{frequency = 1379; id_tag = "Listen_Airlock_Sensor"; pixel_x = 25; pixel_y = 12},/obj/structure/cable{icon_state = "0-2"; d2 = 2},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; frequency = 1379; icon_state = "map_vent"; id_tag = "Listen_Airlock_Pump"; tag = "icon-map_vent (WEST)"},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
-"aM" = (/obj/machinery/door/airlock/external{_wifi_id = 200; frequency = 1379; icon_state = "door_locked"; id_tag = "Listen_Airlock_Inner"; locked = 1; name = "Exterior Airlock"; req_access = list(11,13)},/obj/machinery/atmospherics/pipe/simple/visible,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{tag = "icon-1-2 (NORTH)"; icon_state = "1-2"; dir = 1; pixel_x = 0; d1 = 4; d2 = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
+"aL" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1379; id_tag = "solar_xeno_airlock"; pixel_x = 25; tag_airpump = "Listen_Airlock_Pump"; tag_chamber_sensor = "Listen_Airlock_Sensor"; tag_exterior_door = "Listen_Airlock_Outer"; tag_interior_door = "Listen_Airlock_Inner"},/obj/machinery/airlock_sensor{frequency = 1379; id_tag = "Listen_Airlock_Sensor"; pixel_x = 25; pixel_y = 12},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; frequency = 1379; icon_state = "map_vent"; id_tag = "Listen_Airlock_Pump"; tag = "icon-map_vent (WEST)"},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
+"aM" = (/obj/machinery/door/airlock/external{_wifi_id = 200; frequency = 1379; icon_state = "door_locked"; id_tag = "Listen_Airlock_Inner"; locked = 1; name = "Exterior Airlock"; req_access = list(11,13)},/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
 "aN" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
 "aO" = (/obj/machinery/light/spot,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
 "aP" = (/obj/machinery/door/airlock/halo{name = "Airlock Atmospherics"},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/EVA)
-"aQ" = (/obj/structure/cable{tag = "icon-1-2 (NORTH)"; icon_state = "1-2"; dir = 1; pixel_x = 0; d1 = 4; d2 = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
+"aQ" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aR" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{frequency = 1379; id_tag = "solar_xeno_airlock"; pixel_x = 0; pixel_y = 32; tag_airpump = "Listen_Airlock_Pump"; tag_chamber_sensor = "Listen_Airlock_Sensor"; tag_exterior_door = "Listen_Airlock_Outer"; tag_interior_door = "Listen_Airlock_Inner"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aS" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aT" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aU" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/clothing/suit/space/void/engineering/salvage/prepared{name = "UNSC Hardsuit"},/obj/item/clothing/suit/space/void/engineering/salvage/prepared{name = "UNSC Hardsuit"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aV" = (/obj/effect/floor_decal/asteroid{tag = "icon-asteroid8"; icon_state = "asteroid8"},/turf/simulated/floor/asteroid/planet,/area/asteroid_listening/dark)
 "aW" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/clothing/mask/breath,/obj/item/clothing/mask/breath,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
-"aX" = (/obj/structure/cable{tag = "icon-1-2 (NORTH)"; icon_state = "1-2"; dir = 1; pixel_x = 0; d1 = 4; d2 = 8},/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
+"aX" = (/obj/machinery/door/airlock/multi_tile/halo/blast,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aY" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/device/flashlight,/obj/item/device/flashlight,/obj/item/weapon/storage/toolbox,/obj/item/weapon/storage/toolbox/mechanical,/obj/machinery/light/spot{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "aZ" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
 "ba" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/breakroom)
@@ -56,22 +56,20 @@
 "bd" = (/obj/structure/closet/wall_medical{pixel_y = 32},/obj/item/weapon/stool,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "be" = (/obj/structure/table/standard,/obj/item/weapon/reagent_containers/spray/cleaner,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bf" = (/obj/item/weapon/stool,/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
-"bg" = (/obj/structure/cable{tag = "icon-1-2 (NORTH)"; icon_state = "1-2"; dir = 1; pixel_x = 0; d1 = 4; d2 = 8},/obj/machinery/door/airlock/multi_tile/halo/blast,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/EVA)
+"bg" = (/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "bh" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/Hangar)
 "bi" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bj" = (/obj/effect/decal/cleanable/fruit_smudge,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bk" = (/obj/item/weapon/stool,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bl" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
-"bm" = (/obj/machinery/light/spot{dir = 8},/obj/structure/cable{tag = "icon-1-2 (NORTH)"; icon_state = "1-2"; dir = 1; pixel_x = 0; d1 = 4; d2 = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
+"bm" = (/obj/machinery/light,/obj/machinery/power/apc/super{pixel_y = -32},/obj/machinery/power/terminal{icon_state = "term"; dir = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bn" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "bo" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/Hangar)
 "bp" = (/turf/simulated/floor,/area/asteroid_listening/ground/interior/Hangar)
 "bq" = (/obj/machinery/light/spot{dir = 1},/obj/structure/lattice,/turf/simulated/floor,/area/asteroid_listening/ground/interior/Hangar)
 "br" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/observation)
 "bs" = (/obj/structure/closet/crate/bin,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
-"bt" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
-"bu" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/breakroom)
-"bv" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
+"bt" = (/obj/machinery/vending/wallmed1,/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/controlhangar)
 "bw" = (/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "bx" = (/obj/machinery/door/airlock/multi_tile/halo/blast{dir = 1; icon_state = "door_closed"; name = "Hangar"; req_access = newlist(); tag = "icon-door_closed (NORTH)"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/Hangar)
 "by" = (/obj/structure/lattice,/turf/simulated/floor,/area/asteroid_listening/ground/interior/Hangar)
@@ -81,7 +79,6 @@
 "bC" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/observation)
 "bD" = (/obj/structure/flora/pottedplant/minitree,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/observation)
 "bE" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
-"bF" = (/obj/machinery/light,/obj/machinery/power/apc/super{pixel_y = -32},/obj/structure/cable,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/breakroom)
 "bG" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/controlhangar)
 "bH" = (/obj/machinery/door/airlock/multi_tile/halo/blast{name = "Flight Operations"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "bI" = (/obj/effect/floor_decal/industrial/warning/dust/corner,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/Hangar)
@@ -103,7 +100,6 @@
 "bY" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "bZ" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
 "ca" = (/obj/effect/decal/cleanable/mucus,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/controlhangar)
-"cb" = (/obj/machinery/vending/wallmed1,/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/Hangar)
 "cc" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/Hangar)
 "cd" = (/obj/structure/grille,/obj/structure/window/reinforced/treated{tag = "icon-fwindow (SOUTHWEST)"; icon_state = "fwindow"; dir = 10},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/observation)
 "ce" = (/obj/machinery/door/airlock/multi_tile/halo/blast{dir = 1; icon_state = "door_closed"; name = "Observation Deck"; req_access = newlist(); tag = "icon-door_closed (NORTH)"},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/observation)
@@ -182,17 +178,17 @@ aaaaacabababababababababacacauaqacaxababayayayayayazayababababababababababababab
 aaaaaaaaaaaaamababacacacacacababayaAayayayaBaCaDayaEayababababababababababababababababababacacababab
 aaaaaaaaaaaaaaacabagacacacabababayaFaGaGaHaGaIaJaKaLayabababababababababacacagacababababacacabababab
 aaaaaaaaaaaaaaacacacacacacabababayayayayayaDaDaDayaMayayayayayabababababacacacacacacacacacababababab
-aaaaaaaaaaaaaaacacabababababababababababayaNaOaDaPaQaRaSaTaUayabababacagababacacabababababababababab
-aaaaaaaaaaaaaaaVacabababababababababababayayayayayaQaTaTaTaWayabababacawacacacacabababababababababab
-aaaaaaaaaaaaaaacababababababababababababababababayaXaTaTaTaYayababababacabababababababababababababab
-aaaaaaaaaaacacacababababababababababababababababayaQaTaTaTaZayababababacabababababababababababababab
-aaaaaaaaaaaqacabababababababababababbababababababaaQaTayayayayababababababababababababababababababab
-aaaaaaaaaaaaaaabababababababababababbabbbcbdbebfbabgaTayayayayaybhbhbhbhbhbhbhbhbhbhbhbhbhbhabababab
-aaaaaaaaaaaaaaabababababababababababbabibjbkblbkbabmbnbnbnbnbnbnbobpbqbpbpbpbpbqbpbpbpbpbqbhabababab
-aaaaaaaaaaaaaaaabrbrbrbrbrbrababababbabsbibibibtbubvbnbnbnbnbnbwbxbpbpbpbpbpbpbpbpbybzbpbpbhabababab
-aaaaaaaaaaaaaaaabrbAbBbCbDbrababababbabEbibibibFbabGbGbGbHbnbGbGbhbpbpbIbJbJbJbJbJbJbKbLbpbhabababab
+aaaaaaaaaaaaaaacacabababababababababababayaNaOaDaPaTaRaSaTaUayabababacagababacacabababababababababab
+aaaaaaaaaaaaaaaVacabababababababababababayayayayayaTaTaTaTaWayabababacawacacacacabababababababababab
+aaaaaaaaaaaaaaacababababababababababababababababayaQaTaTaTaYayababababacabababababababababababababab
+aaaaaaaaaaacacacababababababababababababababababayaTaTaTaTaZayababababacabababababababababababababab
+aaaaaaaaaaaqacabababababababababababbababababababaaTaTayayayayababababababababababababababababababab
+aaaaaaaaaaaaaaabababababababababababbabbbcbdbebfbaaXaTayayayayaybhbhbhbhbhbhbhbhbhbhbhbhbhbhabababab
+aaaaaaaaaaaaaaabababababababababababbabibjbkblbkbabgbnbnbnbnbnbnbobpbqbpbpbpbpbqbpbpbpbpbqbhabababab
+aaaaaaaaaaaaaaaabrbrbrbrbrbrababababbabsbibibibibabnbnbnbnbnbnbwbxbpbpbpbpbpbpbpbpbybzbpbpbhabababab
+aaaaaaaaaaaaaaaabrbAbBbCbDbrababababbabEbibibibmbabGbGbGbHbnbGbGbhbpbpbIbJbJbJbJbJbJbKbLbpbhabababab
 aaaaaaaaaaaaaaaabrbMbCbCbNbrbrbrbrbrbababObababababGbGbGbPbnbQbRbhbSbpbTbLbLbLbLbLbLbUbLbVbhabababab
-aaaaaaaaaaaaaaaabrbCbCbCbCbCbCbWbXbCbCbYbnbnbnbYbnbZbYbGcabnbQbQcbbpbzbTbLbLbLccbLbLbUbLbpbhabababab
+aaaaaaaaaaaaaaaabrbCbCbCbCbCbCbWbXbCbCbYbnbnbnbYbnbZbYbtcabnbQbQbhbpbzbTbLbLbLccbLbLbUbLbpbhabababab
 aaaaaaaaaaaaaaaacdbCbCbCbCcebCcfbCbCcebncgbnbnbnbZbnbnchbZbncicjckbpbpbTbLbLbLbLbLbLbUbLbpbhabababab
 aaaaaaaaaaaaaaaacdclcmcnbBbrbrbrbrbrcocpcqcococobGcrbGbGcsbZctcuckbpbpbTbLccbLbLbLbLbUbLbpbhabababab
 aaaaaaaaaaaaaaaacdcvbCbCcwcdaaabababcocqcqcxcococybnczbGbnbnbncAckbpbpbTbLbLcBbLbLbLcCbLbpbhabababab

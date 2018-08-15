@@ -79,7 +79,7 @@
 "bA" = (/obj/structure/window/reinforced/treated{dir = 1},/obj/machinery/overmap_weapon_console/mac,/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
 "bB" = (/obj/structure/window/reinforced/treated{dir = 1},/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
 "bC" = (/obj/structure/window/reinforced/treated{dir = 1},/obj/machinery/mac_cannon/ammo_loader,/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
-"bD" = (/obj/machinery/power/apc/super{dir = 1; name = "MAC Power Controller"; pixel_y = 24},/obj/structure/cable/orange{icon_state = "0-4"},/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
+"bD" = (/obj/machinery/power/apc/super{dir = 1; name = "MAC Power Controller"; pixel_y = 24},/obj/structure/cable/orange{icon_state = "0-4"},/obj/machinery/power/terminal{icon_state = "term"; dir = 1},/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
 "bE" = (/obj/structure/cable/orange{tag = "icon-2-8"; icon_state = "2-8"},/obj/machinery/light{dir = 1},/turf/simulated/floor/reinforced,/area/asteroid_listening/ground/interior/MAC)
 "bF" = (/obj/machinery/door/airlock/multi_tile/halo/blast,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/Hallways)
 "bG" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/living)
@@ -219,7 +219,7 @@
 "ek" = (/obj/machinery/chemical_dispenser/ert,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "el" = (/obj/machinery/door/airlock/multi_tile/halo/blast,/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/cryodorm)
 "em" = (/obj/structure/sign/bluecross_1,/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/medical)
-"en" = (/obj/structure/curtain/medical,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"en" = (/obj/machinery/door/airlock/halo{name = "Stock"},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eo" = (/obj/structure/table/steel_reinforced,/obj/item/clothing/suit/surgicalapron,/obj/item/clothing/suit/surgicalapron,/obj/item/weapon/storage/box/beakers,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "ep" = (/obj/machinery/space_heater,/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eq" = (/obj/machinery/cryopod/unsc{tag = "icon-off (EAST)"; icon_state = "off"; dir = 4},/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/cryodorm)
@@ -233,23 +233,23 @@
 "ey" = (/turf/unsimulated/floor/rock2{density = 1; opacity = 1},/area/asteroid_listening/ground/interior/janitor)
 "ez" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/janitor)
 "eA" = (/turf/simulated/floor/tiled/dark,/area/asteroid_listening/ground/interior/janitor)
-"eB" = (/obj/structure/curtain/medical,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eB" = (/obj/machinery/button/remote/blast_door{_wifi_id = 999; id = 8},/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/asteroid_listening/ground/interior/medical)
 "eC" = (/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
-"eD" = (/obj/structure/closet/secure_closet/medical2,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
-"eE" = (/obj/machinery/door/airlock/halo{name = "Janitorial Supplies"},/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled,/area/asteroid_listening/ground/interior/janitor)
+"eD" = (/obj/structure/closet/secure_closet/medical2,/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 1},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eE" = (/obj/effect/decal/cleanable/dirt,/obj/structure/windoor_assembly{icon_state = "rightspark"},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eF" = (/obj/machinery/organ_printer,/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eG" = (/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eH" = (/obj/machinery/optable,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
-"eI" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/surgery,/obj/item/weapon/storage/firstaid/surgery,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
-"eJ" = (/obj/structure/table/standard,/obj/machinery/button/remote/blast_door{id = 8},/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
-"eK" = (/obj/machinery/atmospherics/pipe/simple/visible{icon_state = "intact"; dir = 6},/obj/structure/cable/blue{icon_state = "0-4"},/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
-"eL" = (/obj/machinery/atmospherics/valve/digital{dir = 4},/obj/structure/cable/blue{icon_state = "4-8"},/obj/structure/closet/l3closet/janitor,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
-"eM" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 10},/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
+"eI" = (/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 1},/obj/structure/closet/crate/bin,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eJ" = (/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 1},/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 4},/obj/structure/table/standard,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eK" = (/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 1},/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 8},/obj/structure/table/standard,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eL" = (/obj/structure/windoor_assembly{icon_state = "rightspark"},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eM" = (/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 4},/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eN" = (/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "eO" = (/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "eP" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
-"eQ" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/machinery/door/blast/shutters{begins_closed = 0; id = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/medical)
-"eR" = (/obj/machinery/light{dir = 8; icon_state = "tube1"; pixel_y = 0},/turf/unsimulated/floor/rock2{density = 1; opacity = 1},/area/asteroid_listening/darkbasement)
+"eQ" = (/obj/effect/decal/cleanable/dirt,/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 8},/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"eR" = (/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
 "eS" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "eT" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "eU" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 4},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
@@ -260,6 +260,13 @@
 "eZ" = (/obj/structure/closet/emcloset/legacy,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "fa" = (/obj/machinery/atmospherics/pipe/tank/empty{dir = 1; icon_state = "air_map"; tag = "icon-air_map (NORTH)"},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
 "fb" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/reagent_containers/spray/cleaner,/obj/item/weapon/reagent_containers/spray/cleaner,/obj/machinery/light,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
+"fc" = (/obj/machinery/door/airlock/halo{name = "Janitorial Supplies"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled,/area/asteroid_listening/ground/interior/janitor)
+"fd" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/surgery,/obj/effect/decal/cleanable/dirt,/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 4},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"fe" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/surgery,/obj/structure/window/reinforced/tinted{icon_state = "twindow"; dir = 8},/turf/simulated/floor/tiled/white,/area/asteroid_listening/ground/interior/medical)
+"ff" = (/obj/machinery/atmospherics/pipe/simple/visible{icon_state = "intact"; dir = 6},/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
+"fg" = (/obj/machinery/atmospherics/valve/digital{dir = 4},/obj/structure/closet/l3closet/janitor,/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
+"fh" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 10},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/janitor)
+"fj" = (/obj/structure/window/reinforced/full,/obj/structure/grille,/obj/machinery/door/blast/shutters{_wifi_id = 999; begins_closed = 0; id = 8},/turf/simulated/floor/plating,/area/asteroid_listening/ground/interior/medical)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaabababababababababababacacacacacacacacacacacadadadadadadadadadadaeaeafaeaeadadadad
@@ -294,17 +301,17 @@ aaaaaaaabobrbrboaaaaaadwdAdBdCdDdydydydEdydwdwdwdwdwdFdydGdwdHbrbrbrbrbodidididi
 aaaaaaaadIbrbrboaaaaaadwdJdydydydydKdydydydwdwdwdwdwdLdydMdwdHbrbrbrdNbodidididididididididididididi
 dOdOdOdOdOcMbrboaaaaaadwdAdPdQdRdydydydSdydwdwdwdwdwdTdSdUdwbobobobobobodidididididididididididididi
 dOdVdWdXdObrbrdIaaaaaadwdwdwdwdwdwdwdwdwdwdwdwdwdwdwdwdwdwdwdidididididididididididididididididididi
-dOdYdWdWdObrbrboaaaaaadZdZdZdZdZdZdZdZdZdidididididididididididididididididididididididididididididi
-dOdWdWdWdObrbrboaaaaaadZeaebecedeeefegdZdidididididididididididididididididididididididididididididi
-dOdYdWdWdObrbrboaaaaaadZehefeceiejeiekdZdidididididididididididididididididididididididididididididi
-dOdWdWdWdOeldWdZdZdZemdZdZendZeoeiefepdZdidididididididididididididididididididididididididididididi
-dOeqdWdWerdWdWeseseseteieuefeiefeiefevdZdidididididididididididididididididididididididididididididi
-dOdOdOdOdOewdWesesesesexeieieieieieieidZdidididididididididididididididididididididididididididididi
-eyeyeyeyezeAeAezdZdZemdZeneBeneneBenendZdidididididididididididididididididididididididididididididi
-eyeyeyeyezeAeAezdZdZdZdZeCeieieiefefeDdZdidididididididididididididididididididididididididididididi
-eyeyezezezeEezezezezdZdZeFeGeHeIeHeieJdZdidididididididididididididididididididididididididididididi
-eyeyezeKeLeMeNeOePezdZdZdZeQeQeQeQeQdZdZeRdididididididididididididididididididididididididididididi
-eyeyezeSeTeUeNeNeVezeWeWeWeXeXeXeXeXeWeWeWeWeWeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeX
+dOdYdWdWdObrbrboaaaaaadZdZdZdZdZdZdZdZdZdZdZdidididididididididididididididididididididididididididi
+dOdWdWdWdObrbrboaaaaaadZeaebecedeeefeieiegdZdidididididididididididididididididididididididididididi
+dOdYdWdWdObrbrboaaaaaadZehefeceiejeieiefekdZdidididididididididididididididididididididididididididi
+dOdWdWdWdOeldWdZdZdZemdZdZendZeoeiefeieiepdZdidididididididididididididididididididididididididididi
+dOeqdWdWerdWdWeseseseteieuefeiefeiefeieievdZdidididididididididididididididididididididididididididi
+dOdOdOdOdOewdWesesesesexeieieieieieieiefeieBdidididididididididididididididididididididididididididi
+eyeyeyeyezeAeAezdZdZemdZeDeEeIeJefeKeIeLeDdZdidididididididididididididididididididididididididididi
+eyeyeyeyezeAeAezdZdZdZdZeCeieieMefeQeieieRdZdidididididididididididididididididididididididididididi
+eyeyezezezfcezezezezdZdZeFeGeHfdeifeeHeGeFdZdidididididididididididididididididididididididididididi
+eyeyezfffgfheNeOePezdZdZdZfjfjfjfjfjdZdZdZdZdidididididididididididididididididididididididididididi
+eyeyezeSeTeUeNeNeVezeWeXeXeXeXeXeXeXeXeXeXeXeWeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeX
 eyeyezeYeZfaeNeNfbezeWeWeWeXeXeXeXeXeXeWeWeWeWeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeX
 eyeyezezezezezezezezeWeWeWeWeXeXeXeXeXeXeWeWeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeX
 eyeyeyeyeyeyeyeyeyeyeyeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeXeX
