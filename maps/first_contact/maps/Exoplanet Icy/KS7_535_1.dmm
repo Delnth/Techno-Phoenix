@@ -44,8 +44,8 @@
 "aR" = (/obj/docking_umbilical/north{name = "KS7-535 Space Elevator 1"},/turf/simulated/floor/exoplanet/snow{tag = "icon-snow0"; icon_state = "snow0"},/area/exo_Ice_facility/ground/exterior/south)
 "aS" = (/mob/living/simple_animal/hostile/shantak,/turf/simulated/floor/exoplanet/snow{tag = "icon-snow0"; icon_state = "snow0"},/area/exo_Ice_facility/ground/exterior/south)
 "aT" = (/mob/living/simple_animal/hostile/bear,/turf/simulated/floor/asteroid/planet,/area/exo_Ice_facility/ground/exterior/cave/cavenorthw)
-"aU" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/turbolift/KS7535/lifts/lift_1_second)
-"aV" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/turbolift/KS7535/lifts/lift_1_second)
+"aU" = (/obj/effect/decal/warning_stripes{icon_state = "SE-out"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
+"aV" = (/obj/effect/decal/warning_stripes{icon_state = "S"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
 "aW" = (/obj/machinery/door/airlock/halo{name = "Expeditionary Supplies"},/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/armory)
 "aX" = (/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/armory)
 "aY" = (/turf/simulated/floor/asteroid/planet,/area/exo_Ice_facility/ground/exterior)
@@ -53,7 +53,7 @@
 "ba" = (/turf/simulated/floor/exoplanet/snow{tag = "icon-snow5"; icon_state = "snow5"},/area/exo_Ice_facility/ground/exterior/south)
 "bb" = (/turf/simulated/floor/exoplanet/snow{tag = "icon-snow8"; icon_state = "snow8"},/area/exo_Ice_facility/ground/exterior/south)
 "bc" = (/turf/simulated/open,/area/turbolift/KS7535/lifts/lift_1_second)
-"bd" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/open,/area/turbolift/KS7535/lifts/lift_1_second)
+"bd" = (/obj/effect/decal/warning_stripes{icon_state = "SW-out"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
 "be" = (/obj/effect/floor_decal/asteroid{tag = "icon-asteroid3"; icon_state = "asteroid3"},/turf/simulated/floor/asteroid/planet,/area/exo_Ice_facility/ground/exterior/south)
 "bf" = (/turf/simulated/floor/exoplanet/snow{tag = "icon-snow3"; icon_state = "snow3"},/area/exo_Ice_facility/ground/exterior/south)
 "bg" = (/obj/structure/table/rack{dir = 8; layer = 2.9},/obj/item/weapon/gun/projectile/m6d_magnum,/obj/item/weapon/gun/projectile/m6d_magnum,/obj/item/weapon/gun/projectile/m6d_magnum,/obj/item/weapon/gun/projectile/m6d_magnum,/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/armory)
@@ -82,7 +82,7 @@
 "bD" = (/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/hallway)
 "bE" = (/obj/machinery/door/airlock/multi_tile/halo/blast{dir = 1; icon_state = "door_closed"; req_access = newlist(); tag = "icon-door_closed (NORTH)"},/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/hallway)
 "bF" = (/obj/structure/lattice,/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
-"bG" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
+"bG" = (/obj/effect/decal/warning_stripes{icon_state = "E"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
 "bH" = (/obj/item/weapon/stool,/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/hallway)
 "bI" = (/turf/simulated/wall{icon = 'code/modules/halo/icons/turfs/walls.dmi'; icon_state = "riveted"; tag = "icon-cult"},/area/exo_Ice_facility/ground/interior/control)
 "bJ" = (/obj/machinery/door/airlock/multi_tile/halo/blast{name = "Flight Operations"},/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/control)
@@ -140,6 +140,10 @@
 "cJ" = (/obj/machinery/cryopod/unsc{tag = "icon-off (EAST)"; icon_state = "off"; dir = 4},/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/cryodorm)
 "cK" = (/obj/machinery/cryopod/unsc,/turf/simulated/floor/tiled/dark,/area/exo_Ice_facility/ground/interior/cryodorm)
 "cL" = (/obj/effect/landmark/map_data{height = 2; name = "Map Data Fuel Depot"},/turf/unsimulated/floor/rock2{density = 1; opacity = 1},/area/exo_Ice_facility/ground/exterior/south)
+"cM" = (/obj/effect/decal/warning_stripes{icon_state = "W"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
+"cN" = (/obj/effect/decal/warning_stripes{icon_state = "NE-out"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
+"cO" = (/obj/effect/decal/warning_stripes{icon_state = "N-corner"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
+"cP" = (/obj/effect/decal/warning_stripes{icon_state = "NW-out"},/turf/simulated/floor,/area/exo_Ice_facility/ground/interior/hangar)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -221,24 +225,24 @@ abababababapapapabababababababababababababababababababababababababababababababab
 abababapapapapapababababababababababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaBaCaDaBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 abababapapapapabababaEaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaEaaaaaaaaaaaaasasasasasasasasaaaaaaaaaaaaaaaaaaaaaaaaaaaBaGaHaIaIaIaIaIaIaIaaaaaaaaaaaaaaaaaaaaaaaaaa
 abababapapabababababaEaFaJaFaFaFaFaFaFaFaFaFaFaKaKaFaFaFaFaFaFaFaFaFaFaFaKaKaKaKaFaFaFaFaFaKaKaKaFaEaaaaaaaaaaaaasasasasasazasasasaaaaaaaaaaaaaBaBaBaBaBaBaBaLaLaIaMaNaOaPaQaIaaaaaaaaaaaaaaaaaaaaaaaaaa
-abababapapaFaFaFaFaFaFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaFaRaFaFaFaFaKaKaKaKaKaKaKaKaKaSaKaKaKaKaKaFaEaaaaaaaaaaaaaaasasaTasasasasasaaaaaaaaaaaaaBaUaUaVaUaUaBaLaLaWaXaXaXaXaXaIaaaaaaaaaaaaaaaaaaaaaaaaaa
-aEaEaEaYaZaFaFaFaFaFaFaFaKaKaKaKaKaKaKaKaKbaaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbbaKaFaEaaaaaaaaaaaaaaasasasasasasasaaaaaaaaaaaaaaaBbcbcbdbcbcaBaGaLaIaIaIaIaIaIaIaaaaaaaaaaaaaaaaaaaaaaaaaa
+abababapapaFaFaFaFaFaFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaFaRaFaFaFaFaKaKaKaKaKaKaKaKaKaSaKaKaKaKaKaFaEaaaaaaaaaaaaaaasasaTasasasasasaaaaaaaaaaaaaBbcbcbcbcbcaBaLaLaWaXaXaXaXaXaIaaaaaaaaaaaaaaaaaaaaaaaaaa
+aEaEaEaYaZaFaFaFaFaFaFaFaKaKaKaKaKaKaKaKaKbaaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbbaKaFaEaaaaaaaaaaaaaaasasasasasasasaaaaaaaaaaaaaaaBbcbcbcbcbcaBaGaLaIaIaIaIaIaIaIaaaaaaaaaaaaaaaaaaaaaaaaaa
 aEaEaEbeaZaFaFaFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfbfbfbfbfbfaKaKaKaKaKaKaKaKaKaFaaaaaaaaaaaaaaaaasasasasasaaaaaaaaaaaaaaaBbcbcbcbcbcaBaLaLaIbgbhbiaIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aFaFaFaZaKaKaKaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbjaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaaaaaaaaaaaaaaaaasasasasasaaaaaaaaaaaaaaaBbcbcbcbcbcaBaLaLaIbkaXblaIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaEaaaaaaaaaaaaaaaaaaasataaaaaabmaaaaaaaaaaaaaBbcbcbcbcbcaBaGaLaIbnaXboaIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aFaKbaaKaKaKaKaKaKaKaKbaaKaKaKaKaKaKaKaKaKaKaKaKaKaKbpaKaKaKaKbfaKaKaKaKaKaKaKaKaKbfbfaKaKaKaKaKaKaEaaaaaaaaaaaaaaaaaaasasaaaaaabmaaaaaaaaaaaaaBaLaLaLaLaLaBbqaLaIaIbraIaIaBbsbsbsbsbsbsbsbsbsbsbsbsbsaa
 aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbtaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaEaaaaaaaaaaaaaaasaaasasaaaaaaaaaBaBaBaBaBaBaBaLaLaLaLaLaLaLaLaLaLaLaLaLaLbubvbubwbububvbububwbubvbsaa
-aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfbfaKaKaKaKaKbfaKaKaKaKbtaSaKaEaaaaaaaabxasasasasasasaaaaaaaaaBbybzbAbBbCaBaLaLaLaLaLaLaLaLaLaLaLaLbDbEbububububububububFbGbububsaa
-aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEasasaaasasasaaasasasaaaaaaaaaaaBaLaLbHbBbHaBaBaBaBaBaBaBaBaBbIbJbKbIbIbIbububLbLbLbLbLbLbLbLbububsaa
-aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKbjaKaKaKaKbbbbaKaKaKaKaKaKaKaKaKbtaKaKaKaKaKaKaKaFaEbMasasasaaasaaaaasasasaaaaaaaaaBbNaLaLaLaLaBaBaBaBaBaBaBaBaBbIbKbKbObKbIbPbubLbLbLbLbLbLbLbLbubQbsaa
-aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaZaZaYaYasaaasasaaaaaaasasasaaaaaaaaaBbRaLaLaLbSbTbyaLaLaLbyaLaLbybIbKbKbKbUbIbububLbLbLbLbLbLbLbLbububsaa
-aFaFaFaKaKaKaKaKaKaKbaaKaKaKaKaKaKaKaKaKbWaKaKaKaKaKaKaKaKaKaKaKaKbaaKaKaKaKaKaKbjaKaKaKaKaKaKaKaZaEaaasaaaaaaaaaaaaaaasasaaaaaaaaaBaBaBaBaBaBaBaLaLaLaLaLaLaLaLbXbKbKbKbYbZbububLbLbLbLbLbLbLbLbububsaa
-aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKbtaKaKaKaKaKaKaKbjaKbtaKaKaKaKaKaKaEasaaaaaaaaaaaaaaasasasasasaaaaaaaaaaaaaaaacacacbcacacacacacabIccbKcdcebZbububLbLbLbLbLbLbLbLbububsaa
-aFaKaKaKaKcfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaEaaaaaaaaaaaaaaaaascgasasasasaaaaaaaaaaaaaacachcicjcackcaclclbVbKbKbKcmbZbububLbLbLbLbLbLbLbLbububsaa
-aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKcfaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaEaaaaaaaaaaaaaaasasasasasasasaaaaaaaaaaaaaacacncicjcacocacpcqbIbKcrcsctbIbububLbLbLbLbLbLbLbLbububsaa
-aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaasasasasasasasaxasaaaaaaaaaaaaaacachcicjcacucacocobIcvcwcxcybIbPbubLbLbLbLbLbLbLbLbubQbsaa
-aFaFaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbbaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaaaaaaaasasasczasaaaaaaaaaaaaaaaacacAcAcAcBcpcCcpcpbIbIbIbIbIbIbububLbLbLbLbLbLbLbLbububsaa
-aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbtbWaKaKaKaKaKaKaKaKaKaKaKaKaKbjaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaaaaaasasasasasasaaaaaaaaaaaaaacDcDcDcEcDcDcDcacacabIaaaaaaaabsbububububububububububububsaa
+aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfbfaKaKaKaKaKbfaKaKaKaKbtaSaKaEaaaaaaaabxasasasasasasaaaaaaaaaBbybzbAbBbCaBaLaLaLaLaLaLaLaLaLaLaLaLbDbEbuaUaVaVaVaVaVaVaVaVbdbubsaa
+aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEasasaaasasasaaasasasaaaaaaaaaaaBaLaLbHbBbHaBaBaBaBaBaBaBaBaBbIbJbKbIbIbIbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKbjaKaKaKaKbbbbaKaKaKaKaKaKaKaKaKbtaKaKaKaKaKaKaKaFaEbMasasasaaasaaaaasasasaaaaaaaaaBbNaLaLaLaLaBaBaBaBaBaBaBaBaBbIbKbKbObKbIbPbGbLbLbLbLbLbLbLbLcMbQbsaa
+aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaZaZaYaYasaaasasaaaaaaasasasaaaaaaaaaBbRaLaLaLbSbTbyaLaLaLbyaLaLbybIbKbKbKbUbIbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaFaFaKaKaKaKaKaKaKbaaKaKaKaKaKaKaKaKaKbWaKaKaKaKaKaKaKaKaKaKaKaKbaaKaKaKaKaKaKbjaKaKaKaKaKaKaKaZaEaaasaaaaaaaaaaaaaaasasaaaaaaaaaBaBaBaBaBaBaBaLaLaLaLaLaLaLaLbXbKbKbKbYbZbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKbtaKaKaKaKaKaKaKbjaKbtaKaKaKaKaKaKaEasaaaaaaaaaaaaaaasasasasasaaaaaaaaaaaaaaaacacacbcacacacacacabIccbKcdcebZbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaKaKaKaKcfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaEaaaaaaaaaaaaaaaaascgasasasasaaaaaaaaaaaaaacachcicjcackcaclclbVbKbKbKcmbZbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKcfaKaKaKaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaEaaaaaaaaaaaaaaasasasasasasasaaaaaaaaaaaaaacacncicjcacocacpcqbIbKcrcsctbIbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaasasasasasasasaxasaaaaaaaaaaaaaacachcicjcacucacocobIcvcwcxcybIbPbGbLbLbLbLbLbLbLbLcMbQbsaa
+aFaFaKaKaKaKaKaKaKaKaKaKbfaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbbaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaaaaaaaasasasczasaaaaaaaaaaaaaaaacacAcAcAcBcpcCcpcpbIbIbIbIbIbIbubGbLbLbLbLbLbLbLbLcMbubsaa
+aFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKbtbWaKaKaKaKaKaKaKaKaKaKaKaKaKbjaKaKaKaKaKaKaKaKaKaKaKaKaKaFaEaaaaaaaaaaaaaaasasasasasasaaaaaaaaaaaaaacDcDcDcEcDcDcDcacacabIaaaaaaaabsbucNcOcOcOcOcOcOcOcOcPbubsaa
 cFaFaFaFaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaFaKaKaKaKaKaKaKaKaKaKaKaFaKaKaKaKaKaKbbbbaKaKaFaFaFaEaaaaaaaaaaaaasasaxasasasasaaaaaaaaaaaaaacDcGcHcGcGcGcDaaaaaaaaaaaaaaaabsbucIbFbububucIbubububucIbsaa
 aFaFaFaFaFaKaKaKaKaKaKaFaFaKaKaKaKaFaKaKaKaKaKaFaFaFaKaKaKaKaKaKaKaKaFaFaFaFaKaKaKaKaKaFaFaFaFaFaFaEaaaaaaaaaaaaasasasaaaaaaasaaaaaaaaaaaaaacDcJcGcGcKcGcDaaaaaaaaaaaaaaaabsbsbsbsbsbsbsbsbsbsbsbsbsbsaa
 cLaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaFaEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacDcDcDcDcDcDcDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
